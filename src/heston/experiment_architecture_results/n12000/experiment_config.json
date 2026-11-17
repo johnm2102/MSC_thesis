@@ -1,0 +1,60 @@
+{
+  "experiment": 3,
+  "research_question": "RQ4",
+  "train_n": 12000,
+  "validation_n": 200,
+  "test_n": 500,
+  "model_seeds": [
+    42,
+    43,
+    44
+  ],
+  "architectures": {
+    "Shallow": [
+      128
+    ],
+    "Deep": [
+      128,
+      128,
+      128,
+      128,
+      128
+    ],
+    "Narrow": [
+      64,
+      64,
+      64
+    ],
+    "Baseline": [
+      128,
+      128,
+      128
+    ],
+    "Wide": [
+      256,
+      256,
+      256
+    ]
+  },
+  "epochs": 1000,
+  "patience": 100,
+  "min_delta": 1e-07,
+  "training_objective": "scaled MSE",
+  "checkpoint_selection": "validation scaled MSE with min_delta",
+  "architecture_selection": "mean validation MAE",
+  "reused_saved_runs": true,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "features": [
+    "S0",
+    "K",
+    "T",
+    "r",
+    "v0",
+    "kappa",
+    "theta",
+    "sigma",
+    "rho"
+  ],
+  "selected_architecture": "Wide"
+}

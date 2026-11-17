@@ -1,0 +1,6 @@
+- While we have the Black Scholes model, the issue is that the assumption of constant volalility has been long recognized as the main limitation
+- Volatility smile
+	- There is a range of volatility numbers that appear alongside the strike price. This is how much the market expects the price to move around over the life of the option
+- Why use the Feller condition 
+- Why use calibration 
+- What relevance is the stable form in this 

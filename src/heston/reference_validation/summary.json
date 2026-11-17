@@ -1,0 +1,48 @@
+{
+  "parameters_combinations": 100,
+  "valid_prices": 100,
+  "successful_prices_by_order": {
+    "32": 100,
+    "64": 100,
+    "128": 100
+  },
+  "converged_32_64": 100,
+  "converged_64_128": 100,
+  "mean_difference_64_128": 9.839365108267606e-17,
+  "max_difference_32_64": 1.6407813996366372e-10,
+  "max_difference_64_128": 2.7200464103316335e-15,
+  "feller_satisfied": 85,
+  "strike_curve_checks": 100,
+  "strike_monotonicity_passed": 100,
+  "strike_convexity_passed": 100,
+  "put_call_parity_passed": 100,
+  "max_put_call_parity_error": 2.220446049250313e-16,
+  "independent_solver_method": "SciPy Carr-Madan Fourier integral",
+  "independent_cases_attempted": 24,
+  "independent_cases_priced": 24,
+  "independent_cases_within_tolerance": 24,
+  "independent_max_difference": 2.0183854587685346e-13,
+  "independent_solver_comparison_completed": true,
+  "independent_all_within_tolerance": true,
+  "benchmark_repeats": 5,
+  "timing_median_ms_per_option": {
+    "32": 0.17604607000066608,
+    "64": 0.389695369999572,
+    "128": 1.08103115999711
+  },
+  "tolerances": {
+    "convergence": 1e-05,
+    "independent": 0.0001,
+    "financial_bounds": 1e-08,
+    "strike_shape": 1e-06,
+    "put_call_parity": 1e-06
+  },
+  "reproducibility": {
+    "seed": 42,
+    "valuation_date": "2026-01-02",
+    "day_count": "Actual/365 Fixed",
+    "quantlib_version": "1.43",
+    "scipy_version": "1.10.1",
+    "python_version": "3.9.7"
+  }
+}

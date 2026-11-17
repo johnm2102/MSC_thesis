@@ -1,0 +1,19 @@
+{
+  "mae": 0.010230730172350867,
+  "rmse": 0.013756012007165764,
+  "median_absolute_error": 0.007525752778899962,
+  "p90_absolute_error": 0.022243333219593375,
+  "max_absolute_error": 0.05295183194422898,
+  "relative_error_percent_on_prices_above_0_01": 9.511705665023305,
+  "train_n": 250,
+  "validation_n": 200,
+  "test_n": 500,
+  "model_seed": 42,
+  "best_epoch": 128,
+  "epochs_ran": 228,
+  "best_validation_mse_scaled": 0.008012732490897179,
+  "training_seconds": 9.956994217999977,
+  "parameter_count": 34433,
+  "median_batch_inference_ms_500": 0.46795799994470144,
+  "median_inference_microseconds_per_option_batched": 0.9359159998894029
+}

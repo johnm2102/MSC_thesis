@@ -1,0 +1,14 @@
+{
+  "seed": 123,
+  "n_cases": 1000,
+  "all_prices_finite": 1000,
+  "valid_reference_prices": 1000,
+  "converged_32_64": 1000,
+  "converged_64_128": 1000,
+  "max_difference_32_64": 9.489067935616229e-06,
+  "max_difference_64_128": 1.6697273816650322e-07,
+  "feller_satisfied": 850,
+  "feller_violated": 150,
+  "all_checks_passed": 1000,
+  "convergence_tolerance": 1e-05
+}

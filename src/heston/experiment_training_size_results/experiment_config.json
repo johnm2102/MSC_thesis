@@ -1,0 +1,93 @@
+{
+  "experiment": 2,
+  "reseach_question": "RQ5",
+  "varied_factor": "number of training samples",
+  "train_sizes": [
+    250,
+    500,
+    1000,
+    2000,
+    4000,
+    8000,
+    12000
+  ],
+  "model_seeds": [
+    42,
+    43,
+    44
+  ],
+  "validation_n": 200,
+  "test_n": 500,
+  "baseline_train_n": 1000,
+  "training_selection": "nested subsets of Exp1 first 1000 + LHS(seed=45) extension",
+  "baseline_LHS_seed": 42,
+  "validation_LHS_seed": 43,
+  "total_LHS_seed": 44,
+  "extension_LHS_seed": 45,
+  "subset_seed": 2026,
+  "architecture": [
+    128,
+    128,
+    128
+  ],
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "max_epochs": 1000,
+  "early_stopping_patience": 100,
+  "reference_pricer": "QuantLib AnalyticHestonEngine",
+  "integration_order": 128,
+  "features": [
+    "S0",
+    "K",
+    "T",
+    "r",
+    "v0",
+    "kappa",
+    "theta",
+    "sigma",
+    "rho"
+  ],
+  "bounds": {
+    "S0": [
+      0.6,
+      1.4
+    ],
+    "T": [
+      0.1,
+      1.4
+    ],
+    "r": [
+      0.0,
+      0.1
+    ],
+    "v0": [
+      0.05,
+      0.5
+    ],
+    "kappa": [
+      0.0,
+      2.0
+    ],
+    "theta": [
+      0.0,
+      0.5
+    ],
+    "sigma": [
+      0.0,
+      0.5
+    ],
+    "rho": [
+      -0.95,
+      0.0
+    ]
+  },
+  "K_FIXED": 1.0,
+  "Q_FIXED": 0.0,
+  "versions": {
+    "python": "3.9.7",
+    "numpy": "1.20.3",
+    "pandas": "2.0.3",
+    "torch": "1.12.1",
+    "quantlib": "1.43"
+  }
+}
