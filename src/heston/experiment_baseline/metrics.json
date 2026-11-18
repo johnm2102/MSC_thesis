@@ -9,8 +9,8 @@
   "validation_n": 200,
   "test_n": 500,
   "best_epoch": 941,
-  "training_seconds": 27.47799922201375,
+  "training_seconds": 67.08187566299999,
   "parameter_count": 34433,
-  "median_batch_inference_ms_500": 0.3988344979006797,
-  "median_inference_microseconds_per_option_batched": 0.7976689958013594
+  "median_batch_inference_ms_500": 0.6165560000042092,
+  "median_inference_microseconds_per_option_batched": 1.2331120000084184
 }
