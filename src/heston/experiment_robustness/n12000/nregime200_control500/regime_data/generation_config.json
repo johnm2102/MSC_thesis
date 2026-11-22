@@ -1,0 +1,246 @@
+{
+  "config": {
+    "experiment": "robustness_v2_matched",
+    "train_n": 12000,
+    "bounds": {
+      "S0": [
+        0.6,
+        1.4
+      ],
+      "T": [
+        0.1,
+        1.4
+      ],
+      "r": [
+        0.0,
+        0.1
+      ],
+      "v0": [
+        0.05,
+        0.5
+      ],
+      "kappa": [
+        0.0,
+        2.0
+      ],
+      "theta": [
+        0.0,
+        0.5
+      ],
+      "sigma": [
+        0.0,
+        0.5
+      ],
+      "rho": [
+        -0.95,
+        0.0
+      ]
+    },
+    "regimes": [
+      [
+        "Control / full domain",
+        {}
+      ],
+      [
+        "Matched base / full domain",
+        {}
+      ],
+      [
+        "Strong negative correlation",
+        {
+          "rho": [
+            -0.95,
+            -0.7
+          ]
+        }
+      ],
+      [
+        "Weak negative correlation",
+        {
+          "rho": [
+            -0.2,
+            0.0
+          ]
+        }
+      ],
+      [
+        "High vol-of-vol",
+        {
+          "sigma": [
+            0.35,
+            0.5
+          ]
+        }
+      ],
+      [
+        "Low vol-of-vol",
+        {
+          "sigma": [
+            0.0,
+            0.15
+          ]
+        }
+      ],
+      [
+        "Short maturity",
+        {
+          "T": [
+            0.1,
+            0.35
+          ]
+        }
+      ],
+      [
+        "Long maturity",
+        {
+          "T": [
+            1.05,
+            1.4
+          ]
+        }
+      ],
+      [
+        "Out-of-the-money-calls",
+        {
+          "S0": [
+            0.6,
+            0.85
+          ]
+        }
+      ],
+      [
+        "At-the-money-calls",
+        {
+          "S0": [
+            0.95,
+            1.05
+          ]
+        }
+      ],
+      [
+        "In-the-money-calls",
+        {
+          "S0": [
+            1.15,
+            1.4
+          ]
+        }
+      ],
+      [
+        "High initial variance",
+        {
+          "v0": [
+            0.35,
+            0.5
+          ]
+        }
+      ],
+      [
+        "Low initial variance",
+        {
+          "v0": [
+            0.05,
+            0.15
+          ]
+        }
+      ],
+      [
+        "Fast mean reversion",
+        {
+          "kappa": [
+            1.5,
+            2.0
+          ]
+        }
+      ],
+      [
+        "Slow mean reversion",
+        {
+          "kappa": [
+            0.0,
+            0.5
+          ]
+        }
+      ],
+      [
+        "High long-run variance",
+        {
+          "theta": [
+            0.35,
+            0.5
+          ]
+        }
+      ],
+      [
+        "Low long-run variance",
+        {
+          "theta": [
+            0.0,
+            0.15
+          ]
+        }
+      ],
+      [
+        "Strong leverage + high vol-of-vol",
+        {
+          "rho": [
+            -0.95,
+            -0.7
+          ],
+          "sigma": [
+            0.35,
+            0.5
+          ]
+        }
+      ],
+      [
+        "Short maturity + OTM",
+        {
+          "T": [
+            0.1,
+            0.35
+          ],
+          "S0": [
+            0.6,
+            0.85
+          ]
+        }
+      ],
+      [
+        "High variance + strong leverage",
+        {
+          "v0": [
+            0.35,
+            0.5
+          ],
+          "rho": [
+            -0.95,
+            -0.7
+          ]
+        }
+      ]
+    ],
+    "n_per_regime": 200,
+    "n_control": 500,
+    "seed_base": 20261119,
+    "features": [
+      "S0",
+      "K",
+      "T",
+      "r",
+      "v0",
+      "kappa",
+      "theta",
+      "sigma",
+      "rho"
+    ],
+    "K_FIXED": 1.0,
+    "q_fixed": 0.0,
+    "integration_order": 128,
+    "reference_check_order": 64,
+    "reference_check_tolerance": 1e-05,
+    "valuation_date": "2026-01-02",
+    "engine": "QuantLib.AnalyticHestonEngine",
+    "design": "independent_control_plus_common_lhs_matched_regimes"
+  }
+}

@@ -1,0 +1,41 @@
+regime,model,n_reference_unstable
+Control / full domain,Black-Scholes,0
+Matched base / full domain,Black-Scholes,0
+Strong negative correlation,Black-Scholes,0
+Weak negative correlation,Black-Scholes,0
+High vol-of-vol,Black-Scholes,0
+Low vol-of-vol,Black-Scholes,0
+Short maturity,Black-Scholes,0
+Long maturity,Black-Scholes,0
+Out-of-the-money-calls,Black-Scholes,0
+At-the-money-calls,Black-Scholes,0
+In-the-money-calls,Black-Scholes,0
+High initial variance,Black-Scholes,0
+Low initial variance,Black-Scholes,0
+Fast mean reversion,Black-Scholes,0
+Slow mean reversion,Black-Scholes,0
+High long-run variance,Black-Scholes,0
+Low long-run variance,Black-Scholes,0
+Strong leverage + high vol-of-vol,Black-Scholes,0
+Short maturity + OTM,Black-Scholes,0
+High variance + strong leverage,Black-Scholes,0
+Control / full domain,Hybrid BS-MLP,0
+Matched base / full domain,Hybrid BS-MLP,0
+Strong negative correlation,Hybrid BS-MLP,0
+Weak negative correlation,Hybrid BS-MLP,0
+High vol-of-vol,Hybrid BS-MLP,0
+Low vol-of-vol,Hybrid BS-MLP,0
+Short maturity,Hybrid BS-MLP,0
+Long maturity,Hybrid BS-MLP,0
+Out-of-the-money-calls,Hybrid BS-MLP,0
+At-the-money-calls,Hybrid BS-MLP,0
+In-the-money-calls,Hybrid BS-MLP,0
+High initial variance,Hybrid BS-MLP,0
+Low initial variance,Hybrid BS-MLP,0
+Fast mean reversion,Hybrid BS-MLP,0
+Slow mean reversion,Hybrid BS-MLP,0
+High long-run variance,Hybrid BS-MLP,0
+Low long-run variance,Hybrid BS-MLP,0
+Strong leverage + high vol-of-vol,Hybrid BS-MLP,0
+Short maturity + OTM,Hybrid BS-MLP,0
+High variance + strong leverage,Hybrid BS-MLP,0

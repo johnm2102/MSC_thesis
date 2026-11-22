@@ -1,0 +1,21 @@
+regime,requested,valid,reference_check_passed,max_reference_diff,feller_satisfied_pct,reference_failure_pct,reference_unstable_pct
+Control / full domain,500,500,500,9.314771176605063e-14,84.2,0.0,0.0
+Matched base / full domain,200,200,200,1.5260015473472777e-13,82.5,0.0,0.0
+Strong negative correlation,200,200,200,2.484850968945129e-07,82.5,0.0,0.0
+Weak negative correlation,200,200,200,1.7591483825185605e-13,82.5,0.0,0.0
+High vol-of-vol,200,200,200,1.3683498778505054e-13,68.5,0.0,0.0
+Low vol-of-vol,200,200,200,2.060018822191978e-13,98.5,0.0,0.0
+Short maturity,200,200,200,2.2701091880183988e-06,82.5,0.0,0.0
+Long maturity,200,200,200,1.6370238498097933e-13,82.5,0.0,0.0
+Out-of-the-money-calls,200,200,200,1.6930901125533637e-15,82.5,0.0,0.0
+At-the-money-calls,200,200,200,3.306244167333716e-13,82.5,0.0,0.0
+In-the-money-calls,200,200,200,3.6415315207705135e-14,82.5,0.0,0.0
+High initial variance,200,200,200,1.8396395518038844e-13,82.5,0.0,0.0
+Low initial variance,200,200,200,1.100765312234131e-12,82.5,0.0,0.0
+Fast mean reversion,200,200,200,1.322830733840874e-13,95.5,0.0,0.0
+Slow mean reversion,200,200,200,1.1457997806108011e-06,58.5,0.0,0.0
+High long-run variance,200,200,200,1.865174681370263e-13,96.5,0.0,0.0
+Low long-run variance,200,200,200,8.985867605559861e-14,62.5,0.0,0.0
+Strong leverage + high vol-of-vol,200,200,200,1.9712013726858046e-07,68.5,0.0,0.0
+Short maturity + OTM,200,200,200,1.0738190708652583e-07,82.5,0.0,0.0
+High variance + strong leverage,200,200,200,1.5681900222830336e-13,82.5,0.0,0.0
