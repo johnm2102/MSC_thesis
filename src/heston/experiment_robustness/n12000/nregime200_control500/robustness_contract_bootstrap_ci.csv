@@ -1,4 +1,4 @@
-regime,model,n_cases,mae_contact_bootstrap_lower95,mae_contact_bootstrap_upper95
+regime,model,n_cases,mae_contract_bootstrap_lower95,mae_contract_bootstrap_upper95
 Control / full domain,Black-Scholes,500,0.002208696285982747,0.002769196823941649
 Matched base / full domain,Black-Scholes,200,0.0020982530135172975,0.003108271298561845
 Strong negative correlation,Black-Scholes,200,0.0033582681292300596,0.00455076383426839
