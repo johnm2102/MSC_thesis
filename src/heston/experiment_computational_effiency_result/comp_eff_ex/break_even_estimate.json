@@ -1,0 +1,9 @@
+{
+  "seed": 44,
+  "test_mae": 8.531000120209178e-05,
+  "test_rmse": 0.0002508071728377787,
+  "historical_training_seconds": null,
+  "estimated_label_generation_seconds": 26.458722571947145,
+  "estimated_break_even_contracts": null,
+  "NOTE": "Break-even is estimated using historical training time, current marginal timing and linear scaling. Not directly measured"
+}
